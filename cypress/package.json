@@ -1,0 +1,23 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "Learning": "npx  cypress run --spec ./cypress/e2e/hooks/hrm.spec.cy.js --browser chrome --headed",
+    "ExecuteTestOnCloud": "npx cypress run --spec ./cypress/e2e/hooks/hrm.spec.cy.js --browser chrome --headed --record --key d90a1698-5786-432c-bc64-0092087559ff"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.6.2",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-xpath": "^2.0.1"
+  },
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.2.5",
+    "cypress-iframe": "^1.0.1"
+  }
+}
